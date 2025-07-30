@@ -5,7 +5,7 @@ import java.util.Scanner;
 // Find the factorial of given number. 
 // Check the number is Armstrong or not. 
 // Exit
-class A1S1c {
+class A1S1c { //add class name according to you
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
