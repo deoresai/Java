@@ -1,5 +1,5 @@
 
-class MyNumber {
+class MyNumber { //add class name according to you
 
     private int number;
 
