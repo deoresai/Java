@@ -2,7 +2,7 @@
 import java.util.Scanner;
 
 //hint : area = length * breadth , perimeter=2*(length+breadth)) 
-class A1S1b{
+class A1S1b{//add class name according to you
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int area,length,breadth,perimeter;
