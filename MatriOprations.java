@@ -1,5 +1,4 @@
 
-
 import java.util.Scanner;
 
 class matrix {//change class name according to you
