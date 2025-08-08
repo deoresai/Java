@@ -1,6 +1,4 @@
 
-import java.util.Scanner;
-
 class Employee{
     int id;
     String name;
@@ -24,7 +22,6 @@ class Employee{
 class Employeedemo{
 
       public static void main(String[] args) {
-            Scanner sc = new Scanner(System.in);
             int id,j=1;
             String name;
             String deptname;
