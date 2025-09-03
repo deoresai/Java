@@ -4,7 +4,7 @@ department. Create n objects of OfficeStaff and display all details. */
 
 import java.util.Scanner;
 
-class Staff {
+abstract class Staff {
     protected int id;
     protected String name;
 
@@ -12,10 +12,7 @@ class Staff {
         this.id=id;
         this.name=name;
     }
-    void display(){
-        System.out.println("id :  "+id);
-        System.out.println("name : "+name);
-    }
+   abstract  void display();
     
 }
 class OfficeStaff extends Staff{
@@ -25,8 +22,7 @@ class OfficeStaff extends Staff{
         this.Dept=Dept;
     }
     void display(){        
-        System.out.println("Department : "+Dept);
-        super.display();
+        System.out.println("Department : "+Dept+" id :"+id+" name : "+name);
     }
     
 }
